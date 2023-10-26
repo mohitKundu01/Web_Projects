@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="Login.css" />
+    <script
+      src="https://kit.fontawesome.com/095ab8f13f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="main">
+      <nav id="navbar">
+        <div>
+          <ul class="Link">
+            <li><a class="Next_Page" href="../HOME/HOME.html">Home</a></li>
+            <li><a class="Next_Page" href="../MEN/Men.html">T-Shirts</a></li>
+            <li><a class="Next_Page" href="">About us</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><a class="Next_Page" href="../LOGIN/Login.html">Login</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="hero_section">
+        <div class="left">
+          <div class="set login">
+            <i class="fa-solid fa-circle-user"></i>
+            <p>Login</p>
+          </div>
+          <div class="set Register">
+            <i class="fa-solid fa-user-plus"></i>
+            <p>Register</p>
+          </div>
+          <div class="set forgetPassword">
+            <i class="fa-solid fa-lock"></i>
+            <p>Forget Password?</p>
+          </div>
+        </div>
+        <div class="right">
+          <!-- Login Page -->
+          <div Login class="Page">
+            <h1>Login</h1>
+            <p>Please enter your e-mail and password:</p>
+            <form>
+              <input class="box" type="email" placeholder="E-mail" />
+              <br /><br />
+              <input
+                class="box"
+                type="password"
+                placeholder="Password"
+              /><br /><br />
+              <button class="box">Login</button>
+            </form>
+            <br />
+            <p Forget_Link><a href="#">Forget Password?</a></p>
+          </div>
+
+          <!-- Register Page -->
+          <div Register class="visible Page">
+            <h1>Register</h1>
+            <p>Please enter your e-mail and password:</p>
+            <form>
+              <input class="box" type="text" placeholder="First Name" />
+              <br /><br />
+              <input class="box" type="email" placeholder="E-mail" />
+              <br /><br />
+              <input
+                class="box"
+                type="password"
+                placeholder="Password"
+              /><br /><br />
+              <button class="box">CREATE ACCOUNT</button>
+            </form>
+          </div>
+          <!-- Forget Password -->
+          <div Forget class="visible Page">
+            <h1>Recover Password</h1>
+            <p>Please enter your e-mail:</p>
+            <form>
+              <input class="box" type="text" placeholder="First Name" />
+              <br /><br />
+              <button class="box">RECOVER</button>
+            </form>
+            <p>
+              Remember your password?
+              <span Login_Link><a href="">Back to login</a></span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Register Page -->
+
+        <script src="Login.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
