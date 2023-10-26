@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T-Shirt Detail</title>
+    <link rel="stylesheet" href="T-Shirt.css" />
+    <script
+      src="https://kit.fontawesome.com/095ab8f13f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="main">
+      <nav id="navbar">
+        <div>
+          <ul class="Link">
+            <li><a class="Next_Page" href="../HOME/HOME.html">Home</a></li>
+            <li><a class="Next_Page" href="../MEN/Men.html">T-Shirts</a></li>
+            <li><a class="Next_Page" href="#about_us">About us</a></li>
+            <li><a class="Next_Page" href="#about_us">About us</a></li>
+            <li>
+              <a class="Next_Page" href="../Contact_US/Index.html"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><a class="Next_Page" href="../LOGIN/Login.html">Login</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="hero_section">
+        <div class="left"></div>
+        <div class="right">
+          <h3>OverLays</h3>
+          <h1 class="Name_Tshirt">G</h1>
+          <p style="font-size: 20px">
+            <span Rate style="font-size: 20px; font-weight: bold"
+              >1000.0000</span
+            >
+          </p>
+          <hr />
+          <p>Size: <span class="Check_Size"></span></p>
+          <div class="size flex">
+            <div class="box">XS</div>
+            <div class="box">S</div>
+            <div class="box">M</div>
+            <div class="box">L</div>
+            <div class="box">XL</div>
+            <div class="box">XXL</div>
+          </div>
+          <p>Quantity:</p>
+          <div class="Quantity">
+            <i minus class="fa-solid fa-minus"></i>
+            <span Count style="font-size: 20px">1</span>
+            <i plus class="fa-solid fa-plus"></i>
+          </div>
+          <div class="Cart btn">ADD TO CART</div>
+          <div Purchase class="BUY btn">BUY IT NOW</div>
+          <br />
+          <div class="angle">
+            <div class="side side-1"></div>
+            <div class="side side-2"></div>
+            <div class="side side-3"></div>
+            <div class="side side-4"></div>
+            <div class="side side-5"></div>
+          </div>
+        </div>
+      </div>
+      <div class="Buy hero_section">
+        <div Seen class="BuyIt">
+          <div class="left_part">
+            <h2>Order Summary</h2>
+            <div class="small_box">
+              <div class="small_img"></div>
+              <div class="detail_cloth">
+                <p class="TT">Ultra Soft Regular Fit Maroon T-shirt - S</p>
+                <div style="display: flex; justify-content: space-between">
+                  <p>Quantity:<span class="Qnt">1</span></p>
+                  <p>Price: <span>₹1,598.00</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="second-small-box">
+              <div style="display: flex; justify-content: space-between">
+                <span>Subtotal</span>
+                <span>₹1,598.00</span>
+              </div>
+              <div style="display: flex; justify-content: space-between">
+                <span>Shipping</span>
+                <span>To be calculated</span>
+              </div>
+              <hr />
+              <div style="display: flex; justify-content: space-between">
+                <h3>Total</h3>
+                <span>₹1,598.00</span>
+              </div>
+            </div>
+
+            <div class="Coupon">
+              <i class="fa-solid fa-percent"></i>
+              <span>Apply Coupon</span>
+            </div>
+          </div>
+          <div class="right_part">
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                font-size: 20px;
+              "
+            >
+              <div style="cursor: pointer">
+                <i BackArrow class="fa-solid fa-arrow-left"></i>
+              </div>
+              <div style="cursor: pointer" Cross>
+                <i class="fa-solid fa-xmark"></i>
+              </div>
+            </div>
+            <div class="top_part">
+              <div>
+                <p>1.Contact</p>
+                <p>2.Address</p>
+                <p>3.Payment</p>
+              </div>
+              <div>
+                <input class="range" type="range" min="0" max="100" value="0" />
+              </div>
+            </div>
+            <!-- ----------------------------------------------------------------- -->
+            <!-- Mobile Contact -->
+            <div class="Phone Mobile_Contact">
+              <div class="Just">
+                <h2>Enter Mobile Number</h2>
+                <div class="Phone_Number">
+                  <span style="margin-left: 10px">+91</span>
+                  <input type="tel" placeholder="Mobile Number" /> <br /><br />
+                  <div style="width: 300px">
+                    <input
+                      id="check"
+                      style="width: 12px; height: 12px; margin: 0 5px 0 0"
+                      type="checkbox"
+                    />
+
+                    <label style="font-size: 14px" for="check">
+                      Send me order updates and offers
+                    </label>
+                    <br />
+                    <br />
+                    <button OTP>
+                      Get OTP <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ------------------------------------------------------------- -->
+            <!-- Address detail -->
+            <div style="display: none" class="Phone Address">
+              <h1>Shipping Address</h1>
+
+              <fieldset class="Name">
+                <legend>Name</legend>
+                <input class="name" type="text" />
+              </fieldset>
+              <fieldset class="Adrs">
+                <legend>Address 1 (House no, Building, Street, Area)</legend>
+                <textarea
+                  class="name"
+                  name=""
+                  id=""
+                  cols="90"
+                  rows="1"
+                ></textarea>
+              </fieldset>
+              <div style="display: flex; gap: 20px">
+                <fieldset class="inline Name">
+                  <legend>Pincode</legend>
+                  <input class="name" type="tel" />
+                </fieldset>
+                <fieldset class="inline Name">
+                  <legend>City</legend>
+                  <input class="name" type="text" />
+                </fieldset>
+                <fieldset class="inline Name">
+                  <legend>State</legend>
+                  <input class="name" type="text" />
+                </fieldset>
+              </div>
+              <fieldset class="Name">
+                <legend>E-mail</legend>
+                <input class="name" type="email" />
+              </fieldset>
+              <br /><br />
+              <button Save style="width: 100%" id="Save">
+                Save & Continue
+                <i
+                  style="margin-left: 10px"
+                  class="fa-solid fa-arrow-right"
+                ></i>
+              </button>
+            </div>
+            <!-- ----------------------------------------------------------------- -->
+            <!-- Payment Method -->
+            <div style="display: none" class="Phone Payment">
+              <h1>Select Payment Method</h1>
+              <div class="Payment_Way">
+                <div class="pay_box">
+                  <div style="font-size: 25px">
+                    <i class="fa-solid fa-wallet"></i>
+                    UPI
+                  </div>
+                  <div style="width: 60px; font-weight: bold; margin-top: 10px">
+                    ₹799.00
+                  </div>
+                </div>
+                <div class="pay_box">
+                  <div style="font-size: 25px">
+                    <i class="fa-solid fa-credit-card"></i>
+                    Cards
+                  </div>
+                  <div style="width: 60px; font-weight: bold; margin-top: 10px">
+                    ₹799.00
+                  </div>
+                </div>
+                <div class="pay_box">
+                  <div style="font-size: 25px">
+                    <i class="fa-solid fa-wallet"></i>
+                    Wallets
+                  </div>
+                  <div style="width: 60px; font-weight: bold; margin-top: 10px">
+                    ₹799.00
+                  </div>
+                </div>
+                <div class="pay_box">
+                  <div style="font-size: 25px">
+                    <i class="fa-solid fa-wallet"></i>
+                    Net Banking
+                  </div>
+                  <div style="width: 60px; font-weight: bold; margin-top: 10px">
+                    ₹799.00
+                  </div>
+                </div>
+                <div class="pay_box">
+                  <div style="font-size: 25px">
+                    <i class="fa-solid fa-clock"></i>
+                    Pay Later
+                  </div>
+                  <div style="width: 60px; font-weight: bold; margin-top: 10px">
+                    ₹799.00
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="T-Shirt.js"></script>
+  </body>
+</html>
